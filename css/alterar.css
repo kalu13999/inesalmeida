@@ -548,7 +548,7 @@ header {
 }
 
 #contactTitle {
-    font-size: 60px;
+    font-size: 50px;
     margin: 0 0 10px;
 }
 
@@ -742,7 +742,7 @@ header {
 }
 
 #aboutTitle {
-    font-size: 36px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
@@ -866,8 +866,8 @@ header {
 }
 
 #featuresTitle {
-    font-size: 36px;
-    letter-spacing: .09em;
+    font-size: 50px;
+    /*letter-spacing: .09em;*/
 }
 
 #featurestitleHr {
