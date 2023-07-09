@@ -1,0 +1,1240 @@
+ 
+    h1, h2, h3, h4, h5, h6, h1 div, h2 div, h3 div, h4 div, h5 div, h6 div {
+        font-family: "Hind Madurai", sans-serif;
+    }
+    p, span, label, a, button, strong, div, em {
+        font-family: "Hind Madurai", sans-serif;
+    }
+
+
+
+#mainMenu {
+    word-break: break-word;
+}
+
+#mainMenu .floatingToolbox {
+    z-index: 10000 !important;
+}
+
+#trigger-overlay {
+    left: 50px;
+    top: 50px;
+    font-size: 30px;
+    background: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay nav {
+    top: 40%;
+}
+
+#menuOverlaySection {
+    background: rgba(0,0,0,0.5);
+    width: 20%;
+    min-width: 250px;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+#menuOverlaySection::-webkit-scrollbar { 
+    width: 0 !important 
+}
+
+#menuTitle {
+    color: white;
+    font-size: 40px;
+    line-height: normal;
+    text-transform: uppercase;
+    display: table;
+}
+
+#menuTitleHr {
+    border: 2px solid white;
+    width: 90%;
+    float: left;
+    margin-left: 4%;
+}
+
+#close-menu {
+    color: white;
+    background: rgba(0,0,0,0);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#menuItems .menuItemA {
+    color: white;
+    transition: background 0.6s ease 0s !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#menuItems .menuItemA:hover, #menuItems .menuItemA:active, #menuItems .menuItemA:focus {
+    background: rgb(99,99,99) !important;
+    color: white;
+}
+
+.menuItemLi {
+    width: 100%;
+}
+
+@media only screen and (max-width : 900px) {
+
+    #menuOverlaySection {
+        background: rgba(0,0,0,0.8);
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    .overlay nav {
+        top: 30%;
+    }
+}
+
+#headerContent {
+    color: white;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+#headerOuterRow {
+    display: flex;
+}
+
+#iconSide {
+    text-align: center;
+}
+
+#headerTitle {
+    font-size: 105px;
+}
+
+#headerSubtitle {
+    font-style: italic;
+}
+
+#titleSide {
+    text-align: right;
+}
+
+.titleSubtitle {
+    text-transform: uppercase;
+}
+
+.headerButton {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 10px 60px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.headerButton:hover {
+    color: rgb(99,99,99);
+    background-color: white;
+    text-decoration: none;
+}
+
+#iconContainer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    min-width: 174px;
+}
+
+.headerIcon {
+    margin: 2%;
+    opacity: 1.0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.headerIcon:hover {
+    opacity: 0.5;
+}
+
+header .customTitle {
+    font-size: 30px;
+    display: inline-block;
+}
+
+header .customParagraph {
+    font-size: 20px;
+}
+
+header .customLink,
+header .customLink a {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+
+header .customLink:hover {
+    color: rgba(99,99,99,0.5);
+    text-decoration: none;
+}
+
+header .customIcon {
+    font-size: 36px;
+}
+
+header .customTitle,
+header .customParagraph,
+header .customLink,
+header .customIcon,
+header .customButton,
+header .customImage,
+header .customEmbed {
+    margin: 10px 0;
+}
+
+header #headerSubtitleWrap .customTitle,
+header #headerSubtitleWrap .customParagraph,
+header #headerSubtitleWrap .customLink,
+header #headerSubtitleWrap .customIcon,
+header #headerSubtitleWrap .customButton,
+header #headerSubtitleWrap .customImage,
+header #headerSubtitleWrap .customEmbed {
+    margin: 10px 0 0;
+}
+
+header #headerButtons .customTitle,
+header #headerButtons .customParagraph,
+header #headerButtons .customLink,
+header #headerButtons .customIcon,
+header #headerButtons .customButton,
+header #headerButtons .customImage,
+header #headerButtons .customEmbed {
+    margin: 25px 0 0;
+}
+
+header #iconContainer .customTitle,
+header #iconContainer .customParagraph,
+header #iconContainer .customLink,
+header #iconContainer .customIcon,
+header #iconContainer .customButton,
+header #iconContainer .customImage,
+header #iconContainer .customEmbed {
+    margin: 10px 0 0;
+}
+
+@media only screen and (max-width : 767px) {
+
+    #headerOuterRow {
+        display: initial;
+    }
+
+    #titleSide {
+        text-align: center;
+    }
+    
+    #headerTitle {
+        font-size: 54px;
+    }
+
+    #headerSubtitle {
+        font-size: 20px;
+    }
+
+    header .customTitle {
+        font-size: 25px;
+    }
+
+    header .customParagraph {
+        font-size: 18px;
+    }
+
+    header .customLink a {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+header {
+    height: 100%;
+}
+#headerLogoImage {
+    position: fixed;
+    left: 3%;
+    bottom: 10px;
+    width: 200px;
+    max-width: 30%;
+    z-index: 100;
+}
+
+
+
+
+
+
+#gallery {
+    color: black;
+}
+
+#gallery .galleryImageBg {
+    color: white;
+}
+
+#galleryContent {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#galleryTop {
+    display: flex;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#galleryTitle {
+    font-size: 50px;
+    margin: 0 0 20px;
+}
+
+#gallerySubtitle {
+    font-size: 25px;
+    margin: 0;
+}
+
+#categoryButtonContainer {
+    text-align: right;
+}
+
+#categoryButtonOuter {
+    margin-left: 40px;
+}
+
+.categoryButtonContainer {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.categoryButton {
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 6px 32px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#gallery .galleryImageBg .categoryButton {
+    color: black;
+    border-color: white;
+    background-color: white;
+}
+
+.categoryButton:hover,
+.categoryButton:focus,
+.categoryButtonSelected {
+    color: white;
+    background-color: rgb(99,99,99);
+    text-decoration: none;
+}
+
+#gallery .galleryImageBg .categoryButton:hover,
+#gallery .galleryImageBg .categoryButton:focus,
+#gallery .galleryImageBg .categoryButtonSelected {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.categoryFilter {
+    margin-top: 40px;
+}
+
+.galleryImages {
+    height: 300px;
+    width: 100%;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    object-fit: cover;
+    display: block;
+}
+
+.galleryImages:hover {
+    transform: scale(1.1);
+}
+
+#gallery .galleryImageBg .galleryImages {
+    border: 1px solid white;
+}
+
+.galleryText {
+    font-size: 20px;
+    margin-top: 15px;
+    color: black;
+}
+
+.galleryText:hover {
+    text-decoration: none;
+}
+
+#fancybox-title {
+    margin-left: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+
+#fancybox-content {
+    border: 5px solid black !important;
+    background: white;
+}
+
+#fancybox-title-over {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.fancybox-title-inside {
+    padding-bottom: 0;
+}
+
+#fancybox-close {
+    right: -35px;
+}
+
+#fancybox-right {
+    right: -20px;
+}
+
+#fancybox-bg-nw,
+#fancybox-bg-ne,
+#fancybox-bg-sw,
+#fancybox-bg-se {
+    display: none;
+}
+
+/* * * * * * * * * */
+
+#gallery .customTitle {
+    font-size: 40px;
+    display: block;
+}
+
+#gallery .customParagraph {
+    font-size: 16px;
+    display: block;
+}
+
+#gallery .customLink {
+    color: black;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+#gallery .galleryImageBg .customLink {
+    color: white;
+}
+
+#gallery .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#gallery .customIcon {
+    font-size: 36px;
+}
+
+#gallery .customTitle,
+#gallery .customParagraph,
+#gallery .customLink,
+#gallery .customIcon, 
+#gallery .customButton, 
+#gallery .customImage,
+#gallery .customEmbed {
+    margin: 10px 0;
+}
+
+@media only screen and (max-width : 1050px) {
+
+    .galleryImages {
+        height: 300px;
+    }
+
+    #categoryButtonOuter {
+        margin: 40px 0 0 40px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+
+    #galleryTop {
+        border-radius: 0;
+    }
+
+    .galleryImages {
+        height: 280px;
+    }
+}
+                    
+@media only screen and (max-width : 767px) {
+
+    #galleryTop {
+        display: initial;
+        text-align: center;
+    }
+
+    #categoryButtonContainer {
+        text-align: center;
+    }
+
+    #categoryButtonOuter {
+        margin: 0;
+    }
+
+    #galleryTitleOuter {
+        margin-bottom: 40px;
+    }
+
+    #galleryTitle {
+        font-size: 40px;
+    }
+
+    .categoryButton {
+        margin-top: 10px;
+    }
+
+    .galleryImages {
+        height: 350px;
+    }
+}
+
+
+
+#contactForm {
+    overflow-x: hidden;
+}
+
+#contact {
+    color: black;
+}
+
+#contact .contactImageBg {
+    color: white;
+}
+
+#contactContent {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#contactTitleWrap {
+    margin-bottom: 30px;
+}
+
+#contactTitle {
+    font-size: 60px;
+    margin: 0 0 10px;
+}
+
+.contactInfoText {
+    font-size: 20px;
+}
+
+#contactEmailInner {
+    margin-bottom: 0;
+}
+
+#contactPhoneNumberWrap {
+    margin-bottom: 30px;
+}
+
+#contactPhoneInner {
+    margin-bottom: 0;
+}
+
+#contactIconWrap {
+    margin-bottom: 30px;
+}
+
+.contactIcon {
+    display: inline-block;
+    font-size: 28px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.contactIcon:hover {
+    opacity: 0.5;
+}
+
+.contactInputWrap {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contactFormInput {
+    border: 1px solid black;
+}
+
+#contact .contactImageBg .contactFormInput {
+    border-color: white;
+}
+
+.contactFormInput::placeholder {
+    color: black;
+}
+
+#contactMessage {
+    resize: none;
+}
+
+#contactButtons {
+    margin-top: 20px;
+}
+
+.contactButton {
+    color: black;
+    padding: 6px 42px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.contactButton:focus {
+    color: black;
+}
+
+.contactButton:hover {
+    color: white;
+    border-color: rgb(99,99,99);
+    background-color: rgb(99,99,99);
+    text-decoration: none;
+}
+
+#contact .contactImageBg .contactButton,
+#contact .contactImageBg .contactButton:focus {
+    color: white;
+    border-color: white;
+}
+
+/* * * * * * * * */
+
+#contact .customTitle {
+    font-size: 40px;
+    display: block;
+}
+
+#contact .customParagraph {
+    font-size: 20px;
+    display: block;
+}
+
+#contact .customLink {
+    color: black;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+
+#contact .contactImageBg .customLink  {
+    color: white;
+}
+
+#contact .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#contact .customIcon {
+    font-size: 30px;
+}
+
+#contact .customTitle,
+#contact .customParagraph,
+#contact .customLink,
+#contact .customIcon,
+#contact .customButton,
+#contact .customImage,
+#contact .customEmbed {
+    margin: 10px 0;
+}
+
+#contact #contactTitleWrap .customIcon,
+#contact #contactTitleWrap .customButton,
+#contact #contactTitleWrap .customImage {
+    margin: 0;
+}
+
+@media only screen and (max-width : 800px) {
+
+    #contactTitle {
+        font-size: 50px;
+    }
+
+    .contactIcon {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    #contactTitle {
+        font-size: 40px;
+    }
+
+    #contact .customImage {
+        padding: 0 10px;
+    }
+}
+
+
+
+
+#contactContainer {
+    background: rgb(99,99,99);
+}
+
+
+
+
+
+#about {
+    color: black;
+}
+
+#about .aboutImageBg {
+    color: white;
+}
+
+#aboutContent {
+    text-align: center;
+    overflow: hidden;
+}
+
+#aboutBox {
+    padding: 36px 54px 54px;
+    background-color: white;
+}
+
+#about .aboutImageBg #aboutBox {
+    background: rgba(255,255,255,0.2);
+}
+
+#aboutTitle {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+#aboutHr {
+    border: 2px solid rgb(99,99,99);
+    width: 33px;
+    margin: 22px auto;
+}
+
+#about .aboutImageBg #aboutHr {
+    border-color: white;
+}
+
+.aboutParagraph {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+#aboutParagraph1Wrap {
+    margin-bottom: 20px;
+}
+
+#about .customTitle {
+    font-size: 36px;
+    display: block;
+}
+
+#about .customParagraph {
+    line-height: 1.6;
+    font-size: 15px;
+    display: block;
+}
+
+#about .customLink {
+    color: black;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+#about .aboutImageBg .customLink {
+    color: white;
+}
+
+#about .customLink:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+#about .customIcon {
+    font-size: 36px;
+}
+
+#about .customTitle,
+#about .customParagraph,
+#about .customLink,
+#about .customIcon,
+#about .customButton,
+#about .customImage,
+#about .customEmbed {
+    margin: 10px 0;
+}
+
+@media only screen and (max-width : 800px) {
+
+    #aboutTitle {
+        font-size: 30px;
+    }
+
+    #aboutBox {
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+
+    #about .customTitle {
+        font-size: 30px;
+    }
+
+    #about #aboutHrWrap .customTitle,
+    #about #aboutHrWrap .customParagraph,
+    #about #aboutHrWrap .customLink,
+    #about #aboutHrWrap .customIcon,
+    #about #aboutHrWrap .customButton,
+    #about #aboutHrWrap .customImage,
+    #about #aboutHrWrap .customEmbed {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+#aboutContainer {
+    background: rgb(99,99,99);
+}
+
+
+
+
+
+
+#features {
+    color: black;
+}
+
+#features .featuresImageBg {
+    color: white;
+}
+
+#featuresContent {
+    text-align: center;
+}
+
+#featuresTop {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#featuresTitle {
+    font-size: 36px;
+    letter-spacing: .09em;
+}
+
+#featurestitleHr {
+    border: 2px solid rgb(99,99,99);
+    width: 50%;
+}
+
+#features .featuresImageBg #featurestitleHr {
+    border-color: white;
+}
+
+#featuresSubtitle {
+    font-size: 22px;
+    font-style: italic;
+    margin: 20px 0 50px;
+}
+
+.features4 {
+    display: flex;
+}
+
+.featuresTemplate {
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#featuresIconWrap {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.featuresIcon {
+    font-size: 60px;
+}
+
+.featuresHeader {
+    font-size: 24px;
+}
+
+.featuresHr {
+    border: 3px double rgb(99,99,99);
+    width: 50%;
+    margin: 10px auto;
+}
+
+#features .featuresImageBg .featuresHr {
+    border-color: white;
+}
+
+#featuresParagraphWrap {
+    margin-top: 40px;
+}
+
+.featuresParagraph {
+    font-size: 16px;
+    letter-spacing: .08em;
+    line-height: 1.85;
+}
+
+.featuresIconWrap {
+    margin-top: 24px;
+}
+
+#features .customTitle {
+    font-size: 36px;
+    letter-spacing: .09em;
+    display: block;
+}
+
+#features #featuresRowContainer .customTitle {
+    font-size: 24px;
+    letter-spacing: normal;
+}
+
+#features .customParagraph {
+    font-size: 16px;
+    letter-spacing: .08em;
+    line-height: 1.85;
+    display: block;
+}
+
+#features #featuresRowContainer .customParagraph {
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+#features .customLink {
+    color: black;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+#features .featuresImageBg .customLink {
+    color: white;
+}
+
+#features .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#features .customIcon {
+    font-size: 32px;
+}
+
+#features .customTitle,
+#features .customParagraph,
+#features .customLink,
+#features .customIcon, 
+#features .customButton,
+#features .customImage,
+#features .customEmbed {
+    margin: 10px 0;
+}
+
+@media only screen and (max-width : 1050px) {
+
+    #featuresIconWrap {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+
+    #featuresIconWrap {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    .features4 {
+        display: initial;
+        margin: 0;
+    }
+
+    #featuresIconWrap {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+#newsLetterOuter {
+    word-break: break-word;
+}
+
+#closeNewsletterButton {
+    position: absolute;
+    top: 55px;
+    right: 40px;
+    border: none;
+    font-size: 30px;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+    z-index: 100;
+}
+
+#closeNewsletterButton:hover {
+    opacity: 0.5;
+} 
+
+#newsOverlaySection {
+    display: table;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+#newsOverlaySection::-webkit-scrollbar { 
+    width: 0 !important; 
+}
+
+#newsletterTitle {
+    font-size: 50px;
+    letter-spacing: .02em;
+    margin: 40px 0 0;
+    color: white;
+    width: 100%;
+    text-shadow: 0 0 3px black;
+}
+
+#newsletterSubtitle1 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: .1em;
+    margin-top: 30px;
+}
+
+#newsletterRowContainer {
+    margin: 50px auto 0;
+    padding: 15px;
+    background: white;
+    width: 80%;
+}
+
+#newsletterInput {
+    margin: 10px auto;
+    color: white;
+    width: 65%;
+    height: 44px;
+    border-radius: 0;
+    border: none;
+    background: rgba(0,0,0,0.4);
+    display: inline-block;
+}
+
+#newsletterInput:focus {
+    border-color: black;
+    box-shadow: 0 0 3px black;
+}
+
+#newsletterInput::placeholder {
+    color: white;
+    letter-spacing: 0.05em
+}
+
+#newsletterButton {
+    color: white;
+    padding: 13px 45px 11px;
+    background: rgba(0,0,0,0.8);
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#newsletterButton:focus {
+    color: white;
+}
+
+#newsletterButton:hover {
+    color: white;
+    background: rgb(99,99,99);
+}
+
+#newsletterIconContainer {
+    margin-top: 40px;
+}
+
+.newsletterIcons {
+    color: white;
+    font-size: 22px;
+    margin: 0 6px;
+}
+
+#newsletterSubtitle2 {
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    margin: 30px 0 40px;
+    text-shadow: 0 0 3px black;
+}
+
+/* * * * * * * * */
+
+#newsletterOuter .customTitle {
+    font-size: 40px;
+    display: block;
+}
+
+#newsletterOuter .customParagraph {
+    font-size: 18px;
+    display: block;
+}
+
+#newsletterOuter .customLink {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+#newsletterOuter .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#newsletterOuter .customIcon {
+    font-size: 28px;
+}
+
+#newsletterOuter .customTitle,
+#newsletterOuter .customParagraph,
+#newsletterOuter .customLink,
+#newsletterOuter .customIcon,
+#newsletterOuter .customButton,
+#newsletterOuter .customImage,
+#newsletterOuter .customEmbed {
+    margin: 10px 0;
+}
+
+#newsletterOuter .customTitle,
+#newsletterOuter .customParagraph,
+#newsletterOuter .customLink,
+#newsletterOuter .customIcon {
+    color: white;
+}
+
+#newsletterOuter #newsletterRowContainer .customTitle,
+#newsletterOuter #newsletterRowContainer .customParagraph,
+#newsletterOuter #newsletterRowContainer .customLink,
+#newsletterOuter #newsletterRowContainer .customIcon {
+    color: black;
+}
+
+@media only screen and (max-width : 1050px) {
+    
+    #newsletterInput {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    #newsletterTitle {
+        font-size: 32px;
+        margin-top: 80px;
+    }
+
+    #newsletterSubtitle1 {
+        font-size: 18px;
+    }
+
+    #newsletterRowContainer {
+        width: 100%;
+        padding: 8px 4px;
+    }
+
+    #newsletterInput {
+        width: 95%;
+    }
+
+    #newsletterButton {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+    #newsletterTitle {
+        font-size: 35px;
+    }
+
+    #newsletterInput {
+        width: 95%;
+    }
+}
+
+
+
+
